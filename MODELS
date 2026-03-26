@@ -9,10 +9,10 @@
     "password" : "$2b$10$T9UMz6TVBuvWBkT.n5Uys.TwZm5NkYOfTz4c6o.prAqTRG5j35q6a",
     "firstName" : "Shoni",
     "lastName" : "Yawo",
-    "teamId" : 1,
+    "email" : "shoni888yawo@hotmail.com",
     "role" : "player",
-    "email" : "shoni_yawo@hotmail.com",
     "status" : "active",
+    "teamId" : 1,
     "created" : "2020-12-07",
     "updated" : "2020-12-07"
 },
@@ -20,10 +20,10 @@
 /** creating a new user **/
 {
     "username" : "Martian",
-    "password" : "123456789",
+    "password" : "fg518rg184f1dg481sf54g1",
     "firstName" : "Marvin",
     "lastName" : "Christoph",
-    "email" : "marvin_christoph@hotmail.com"
+    "email" : "marvinchristoph444@gmail.com"
 },
 
 /** short user **/
@@ -40,7 +40,7 @@
     "id" : 1,
     "status" : "finished",
     "fieldId" : "1",
-    "refereeId" : "1",
+    "refereeId" : "10",
     "homeTeamId" : "1",
     "awayTeamId" : "2",
     "date" : "24-03-2026",
@@ -54,7 +54,7 @@
 {
     "status" : "created",
     "field" : "2",
-    "refereeId" : "2",
+    "refereeId" : "20",
     "homeTeamId" : "2",
     "awayTeamId" : "1"
 },
@@ -91,7 +91,9 @@
         "zipCode": "33139",
         "city": "Miami Beach",
         "country": "États-Unis"
-    }
+    },
+    "created" : "2020-12-07",
+    "updated" : "2020-12-07"
 },
 
 /** creating new field **/
