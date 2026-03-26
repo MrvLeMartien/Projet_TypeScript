@@ -1,0 +1,110 @@
+[
+
+//----------------USERS----------------//
+
+/** existing user **/
+{
+    "id" : 1,
+    "username" : "Sho",
+    "password" : "$2b$10$T9UMz6TVBuvWBkT.n5Uys.TwZm5NkYOfTz4c6o.prAqTRG5j35q6a",
+    "firstName" : "Shoni",
+    "lastName" : "Yawo",
+    "teamId" : 1,
+    "role" : "player",
+    "email" : "shoni_yawo@hotmail.com",
+    "status" : "active",
+    "created" : "2020-12-07",
+    "updated" : "2020-12-07"
+},
+
+/** creating a new user **/
+{
+    "username" : "Martian",
+    "password" : "123456789",
+    "firstName" : "Marvin",
+    "lastName" : "Christoph",
+    "email" : "marvin_christoph@hotmail.com"
+},
+
+/** short user **/
+{
+    "id" : 1,
+    "firstName" : "Shoni",
+    "lastName" : "Yawo"
+},
+
+//----------------GAMES----------------//
+
+/** existing game **/
+{
+    "id" : 1,
+    "status" : "finished",
+    "fieldId" : "1",
+    "refereeId" : "1",
+    "homeTeamId" : "1",
+    "awayTeamId" : "2",
+    "date" : "24-03-2026",
+    "scoreTeamHome" : 25,
+    "scoreTeamAway" : 23,
+    "created" : "2020-12-07",
+    "updated" : "2020-12-07"
+},
+
+/** creating a new game **/
+{
+    "status" : "created",
+    "field" : "2",
+    "refereeId" : "2",
+    "homeTeamId" : "2",
+    "awayTeamId" : "1"
+},
+
+//----------------TEAMS----------------//
+
+/** existing team **/
+{
+    "id" : "1",
+    "name" : "USAFV",
+    "sport" : "Volleyball",
+    "trainerId" : 1,
+    "created" : "2020-12-07",
+    "updated" : "2020-12-07"
+},
+
+/** creating new team **/
+{
+    "name" : "CDC",
+    "sport" : "Volleyball",
+    "trainerId" : 2  
+},
+
+//----------------FIELDS----------------//
+
+/** existing field **/
+{
+    "id" : 1,
+    "name" : "Miami Beach",
+    "Location" : 
+    {
+        "street": "Ocean Dr",
+        "number": "701",
+        "zipCode": "33139",
+        "city": "Miami Beach",
+        "country": "États-Unis"
+    }
+},
+
+/** creating new field **/
+{
+    "name": "Manhattan Beach",
+    "Location": 
+    {
+        "street": "Manhattan Beach Blvd",
+        "number": "2",
+        "zipCode": "90266",
+        "city": "Manhattan Beach",
+        "country": "États-Unis"
+    }
+}
+
+]
