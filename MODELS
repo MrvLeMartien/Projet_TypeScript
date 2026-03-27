@@ -2,7 +2,7 @@
 
 //----------------USERS----------------//
 
-/** existing user **/
+/** User Object **/
 {
     "id" : 1,
     "username" : "Sho",
@@ -17,7 +17,7 @@
     "updated" : "2020-12-07"
 },
 
-/** creating a new user **/
+/**  New User Object **/
 {
     "username" : "Martian",
     "password" : "fg518rg184f1dg481sf54g1",
@@ -35,7 +35,7 @@
 
 //----------------GAMES----------------//
 
-/** existing game **/
+/** Game Object **/
 {
     "id" : 1,
     "status" : "finished",
@@ -50,7 +50,7 @@
     "updated" : "2020-12-07"
 },
 
-/** creating a new game **/
+/** New Game Object **/
 {
     "status" : "created",
     "field" : "2",
@@ -61,7 +61,7 @@
 
 //----------------TEAMS----------------//
 
-/** existing team **/
+/** Team Object **/
 {
     "id" : "1",
     "name" : "USAFV",
@@ -72,7 +72,7 @@
     "updated" : "2020-12-07"
 },
 
-/** creating new team **/
+/** New Team Object **/
 {
     "name" : "CDC",
     "sport" : "Volleyball",
@@ -81,7 +81,7 @@
 
 //----------------FIELDS----------------//
 
-/** existing field **/
+/** Field Object **/
 {
     "id" : 1,
     "name" : "Miami Beach",
@@ -90,10 +90,10 @@
     "updated" : "2020-12-07"
 },
 
-/** creating new field **/
+/** New Field Object **/
 {
     "name": "Manhattan Beach",
-    "Location": "Manhattan Beach",
+    "Location": "Manhattan Beach avenue",
 }
 
 ]
