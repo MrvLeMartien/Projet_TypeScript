@@ -66,8 +66,24 @@
     "id" : "1",
     "name" : "USAFV",
     "sport" : "Volleyball",
-    "description" : (optionnal),
+    "description" : "Wezembeek Let's go!",
     "trainerId" : 1,
+    "playersList":[
+      {
+      "id" : 1,
+      "username" : "Sho",
+      "password" : "$2b$10$T9UMz6TVBuvWBkT.n5Uys.TwZm5NkYOfTz4c6o.prAqTRG5j35q6a",
+      "firstName" : "Shoni",
+      "lastName" : "Yawo",
+      "email" : "shoni888yawo@hotmail.com",
+      "role" : "player",
+      "status" : "active",
+      "teamId" : 1,
+      "created" : "2020-12-07",
+      "updated" : "2020-12-07"
+      }
+    ],
+
     "created" : "2020-12-07",
     "updated" : "2020-12-07"
 },
@@ -76,6 +92,7 @@
 {
     "name" : "CDC",
     "sport" : "Volleyball",
+    "playersList":[],
     "trainerId" : 2  
 },
 
@@ -85,7 +102,7 @@
 {
     "id" : 1,
     "name" : "Miami Beach",
-    "Location" : "Miami Beach"
+    "Location" : "Miami Beach avenue",
     "created" : "2020-12-07",
     "updated" : "2020-12-07"
 },
@@ -93,7 +110,7 @@
 /** New Field Object **/
 {
     "name": "Manhattan Beach",
-    "Location": "Manhattan Beach avenue",
+    "Location": "Manhattan Beach avenue"
 }
 
 ]
